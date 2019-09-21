@@ -11,7 +11,7 @@ description: 在 macOS 上使用 ShadowsocksX-NG-R8 客户端接入流量中继�
 
 
 
-### 1.请使用浏览器打开 海豚湾 用户中心 - 查看快速添加节点
+### 1.请使用浏览器打开 OneLight 用户中心 - 查看快速添加节点
 
 ![](.gitbook/assets/ping-mu-kuai-zhao-20190921-16.43.17min.png)
 

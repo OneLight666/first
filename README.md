@@ -18,7 +18,7 @@ description: 这里是 OneLight 的教程文档，您也可以在这里找到One
 
 * [官方网址：https://onelight.cloud](htts://onelight.cloud)
 * [官方TG群：发布官方公告，通知等信息。](https://t.me/joinchat/KOAbIQ9SHx89Xm4EuK4mUQ)
-* **客服邮箱：onelight1080@gmail.com**
+* **客服邮箱：onelight1080@gmail.com\(域名无法访问可联系客户邮箱\)**
 
 
 
