@@ -1,85 +1,77 @@
 ---
-description: 在 Android 设备上使用 ShadowsocksR(R) App 接入流量中继服务
+description: 在 Windows PC/平板 上使用 ShadowsocksR 客户端接入流量中继服务
 ---
 
-# Android 教程
+# Windows 教程
 
-| 系统 | 软件版本 |
+
+
+| 系统要求： | Windows XP 及以上 |
 | :--- | :--- |
-| Android4.4+ | ShadowsocksR 最新版 |
+| 软件版本： | ShadowsocksR 最新版 |
+| 设备要求： | Windows PC / Tablet |
 
-## 配置订阅节点及使用教程
+### 配置及使用教程 <a id="pei-zhi-ji-shi-yong-jiao-cheng"></a>
 
-_完成以下简单配置步骤，即可享用Onelight云服务。\(阁下可能需要花5~10分钟左右的时间完成教程\)_
+完成以下简单配置步骤，即可享用Onelight云服务。\(阁下可能需要花5~10分钟左右的时间完成教程\)
 
-### 一 .请使用浏览器打开 _OneLight_ 用户中心 - 下载软件并复制订阅地址
+### 1.请使用浏览器打开 OneLight 用户中心 - 查看快速添加节点 <a id="1-qing-shi-yong-liu-lan-qi-da-kai-hai-tun-wan-yong-hu-zhong-xin-cha-kan-kuai-su-tian-jia-jie-dian"></a>
 
-#### [传送onelight官网](https://onelight.xyz/user)
+![](.gitbook/assets/ping-mu-kuai-zhao-20190921-17.07.21min%20%281%29.png)
 
-![](.gitbook/assets/ping-mu-kuai-zhao-20190831-17.02.57.png)
+* 点击下载 Windows 客户端文件并安装。
+* 复制订阅地址，配置客户端时需使用。
 
-1. 点击下载 Android apk 并安装。
-2. 复制订阅地址，配置客户端时需使用
-
-{% hint style="info" %}
 订阅地址包含您的订阅信息，阁下应当把它当做密码一样妥善保管，请勿泄露给他人！
-{% endhint %}
 
-### 二. 打开安装的 ShadowsocksR 应用程序
+### 2.打开 ShadowsocksR 客户端 <a id="2-da-kai-shadowsocksr-ke-hu-duan"></a>
 
-![&#x70B9;&#x51FB;&#x9876;&#x90E8;shadowsockes R](.gitbook/assets/assets_-lhgudk_qhv-zutxqkhc_-le3sndclyemz4pavhau_-le3vtf8tc-pbum53jwg_2019-05-05-at-4.21-am.png)
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LHgUdk_QhV-zuTXQKHC%2F-LduLndLAczsC-RAJKUw%2F-Ldu5NrsJ3SEdAMmTwig%2Fimage.png?alt=media&token=36cbae2a-ba98-47c1-896e-2da62d7316d7)
 
-* 然后点击顶部的**「ShadowsocksR」**区域进入接入点列表。
+* 根据系统.NET版本选择客户端。
 
-![](.gitbook/assets/assets_-lhgudk_qhv-zutxqkhc_-le3sndclyemz4pavhau_-le3xvmg67lxp5i3bjb8_2019-05-05-at-4.27-am.png)
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LHgUdk_QhV-zuTXQKHC%2F-LduLndLAczsC-RAJKUw%2F-Ldu4KhMxTy0zgNlHC2z%2Fimage.png?alt=media&token=022645e1-08aa-4c19-920a-50b1ea9db823)
 
-* 默认有一个**「Android SSR Default」**的无效连接信息，向右滑动将其删除。
-* 点击在接入点列表页面底部的**「+」**按钮，并选择**「添加/升级 SSR 订阅」**
+* 右键点击托盘栏的纸飞机图标
+* 关闭**「负载均衡」**
+* 打开**「SSR服务器订阅设置」**
 
-![](.gitbook/assets/assets_-lhgudk_qhv-zutxqkhc_-le3sndclyemz4pavhau_-le3_lghqybqhiardu41_2019-05-05-at-4.43-am.png)
+### 3.配置订阅地址 <a id="3-pei-zhi-ding-yue-di-zhi"></a>
 
-* 订阅列表中默认有一个**「FreeSSR-public」**订阅，向右滑动将其删除。
-* 在弹出的对话框中点击**「与节点一起删除」**。
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LHgUdk_QhV-zuTXQKHC%2F-LduLndLAczsC-RAJKUw%2F-LduHVo3qk_OJRi34CPa%2Fimage.png?alt=media&token=19ca378d-5f7c-46c6-b959-5c2e6a8c88cc)
 
-![](.gitbook/assets/assets_-lhgudk_qhv-zutxqkhc_-le3sndclyemz4pavhau_-le3bbfdjnw0jxni_8ho_2019-05-05-at-4.47-am.png)
+* 点击「**Add**」按钮
+* 右侧「**网址**」的「**输入框**」中粘贴刚才在官网复制的「**订阅地址**」
+* 勾选「**自动更新**」并
 
-* 再次点击接入点列表页面底部的**「+」**按钮，选择**「添加/升级 SSR 订阅」**，在订阅列表中点击**「添加订阅地址」**。
+### 4.更新订阅 <a id="4-geng-xin-ding-yue"></a>
 
-![](.gitbook/assets/assets_-lhgudk_qhv-zutxqkhc_-le3sndclyemz4pavhau_-le3cnzamqfx9ne_6cox_2019-05-05-at-4.52-am.png)
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LHgUdk_QhV-zuTXQKHC%2F-LHju-C3DvSf03Duf6ia%2F-LHjwdN1jCAw7xF31pwM%2Fimage.png?alt=media&token=ca929e23-8005-426e-8584-b8e619f8386a)
 
-* 长按文本框空白区域，选择**「粘贴」**，将第一步复制的订阅地址粘贴到文本框中。点击**「确定」**
-* ShadowsocksR 应用程序显示**「处理中」**。这可能需要一小段时间，具体根据网络情况而定
+* 再次右键点击托盘栏纸飞机图标，在「**服务器订阅**」选项卡中选择 **更新 SSR 服务器订阅（不通过代理）**
 
-{% hint style="warning" %}
-更新失败与网络环境有关，多次失败建议 4G、WIFI 环境都尝试更新一下。
-{% endhint %}
+**​**
 
-![](.gitbook/assets/assets_-lhgudk_qhv-zutxqkhc_-le3sndclyemz4pavhau_-le3eya5n0o2wacpchjz_2019-05-05-at-5.01-am%20%281%29.png)
+一小段时间后（具体时间取决于您的网络环境），您将会收到 **服务器订阅更新成功** 的通知消息，同时查看服务器列表也可以看到对应的 海豚湾 接入点。![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LHgUdk_QhV-zuTXQKHC%2F-LduV-qgB0twbT36DgTx%2F-LduV7erX4WRGY7XqDyN%2Fimage.png?alt=media&token=a345be46-83df-4a1d-9052-4c090522cef4)
 
-* 勾选 **自动更新**。
-* 点击**「确定并升级」**就可以导入最新的 Onelight 接入点信息并自动更新了。
+* 提示「**更新成功**」
+* 右键点击托盘栏的纸飞机图标 「**服务器**」**-** 「**海豚湾**」中选择节点使用
 
-![&#x5728;&#x8282;&#x70B9;&#x5217;&#x8868;&#x4E2D;&#x9009;&#x62E9;&#x9002;&#x5408;&#x60A8;&#x7684;&#x8282;&#x70B9;](.gitbook/assets/assets_-lhgudk_qhv-zutxqkhc_-le3sndclyemz4pavhau_-le3ftjnhj0cgmxue-2v_image.png)
+如果订阅失败，可尝试将本地DNS地址改为114.114.114.114 和 119.29.29.29 并重试更新。![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LHgUdk_QhV-zuTXQKHC%2F-LduLndLAczsC-RAJKUw%2F-LduKBR4Kg5-puxIshZ2%2Fimage.png?alt=media&token=f2fa6b87-f8b0-48c3-ae1e-4c71cd09329a)
 
-{% hint style="info" %}
-选择任意带有地区名字的节点使用（到期时间等信息提示节点无法使用）
-{% endhint %}
+使用 海豚湾 订阅节点是目前最推荐的做法，使用后您无需每次在 海豚湾 更新接入点后手动前往 海豚湾 用户中心更新配置，而是可以令客户端在每次启动是自动尝试更新配置文件，同时您也可以手动来立即更新接入点信息。
 
-### 三.分流设置
+### 5.配置规则 <a id="5-pei-zhi-gui-ze"></a>
 
-![](.gitbook/assets/assets_-lhgudk_qhv-zutxqkhc_-le3sndclyemz4pavhau_-le3i5dvdlug-k2qivb2_2019-05-05-at-5.18-am.png)
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LHgUdk_QhV-zuTXQKHC%2F-LHju-C3DvSf03Duf6ia%2F-LHjxV56a0ud3b0hrdVf%2Fimage.png?alt=media&token=7a666212-bdfc-4d13-a42b-08582a330fbf)
 
-1. 设置**「路由」**为**「绕过局域网和中国大陆地址」**。
-2. 更改**「China DNS」**选项为 **119.29.29.29:53,223.5.5.5:53**
-3. 更改**「DNS」**选项为 **8.8.8.8:53,8.8.4.4:53**
-4. 将**「IPv6路由」「分应用代理」「UDP转发」**关闭。
-5. 全部完成后点击右上角**「纸飞机」**图标连接。
+* 右键点击托盘栏纸飞机图标，在「**代理规则** 」菜单中选择**「绕过局域网和大陆」**。
 
-![&#x5982;&#x679C;&#x662F;&#x9996;&#x6B21;&#x8FDE;&#x63A5;&#xFF0C;&#x5219;&#x7CFB;&#x7EDF;&#x4F1A;&#x5F39;&#x51FA;&#x5982;&#x4E0A;&#x7684;&#x63D0;&#x793A;&#x6846;&#xFF0C;&#x8BF7;&#x70B9;&#x51FB;&#x300C;&#x786E;&#x5B9A;&#x300D;](.gitbook/assets/assets_-lhgudk_qhv-zutxqkhc_-le3sndclyemz4pavhau_-le3jytcwmi91pulvnvl_2019-05-05-at-5.28-am%20%281%29.png)
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LHgUdk_QhV-zuTXQKHC%2F-LHju-C3DvSf03Duf6ia%2F-LHjxhUml0Lx85YlzPwo%2Fimage.png?alt=media&token=84afa9a1-e9b7-4c61-8dce-fdeccd560fcd)
 
-* 如果是首次连接，则系统会弹出如上的提示框，请点击**「确定」**
+* 再次右键点击托盘栏纸飞机图标，在**「系统代理模式」**菜单中选择**「全局」**。
+
+> #### 现在您可以享受 onelight 云服务 接入点带来的全新国际网络访问体验。 <a id="xian-zai-nin-ke-yi-xiang-shou-hai-tun-wan-yun-fu-wu-jie-ru-dian-dai-lai-de-quan-xin-guo-ji-wang-luo-fang-wen-ti-yan"></a>
 
 
-
-> #### 现在您可以享受 Onelight云服务 接入点带来的全新国际网络访问体验。
 
