@@ -14,7 +14,7 @@ _完成以下简单配置步骤，即可享用Onelight云服务。\(阁下可能
 
 ### 一 .请使用浏览器打开 _OneLight_ 用户中心 - 下载软件并复制订阅地址
 
-#### [传送onelight官网](https://onelight.xyz/user)
+#### [传送onelight官网](https://onelight.cloud/user):[https://onelight.cloud/user](https://onelight.cloud/user)
 
 ![](.gitbook/assets/ping-mu-kuai-zhao-20190921-17.19.43min.png)
 

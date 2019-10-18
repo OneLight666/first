@@ -16,7 +16,7 @@ description: 在 iOS 设备上使用 Shadowrocket 接入流量中继服务
 
 ### 一 .请使用浏览器打开 _OneLight_ 用户中心 - 下载软件并复制订阅地址
 
-#### [传送onelight官网](https://onelight.xyz/user)
+#### [传送onelight官网](https://onelight.cloud/user) [https://onelight.cloud](https://onelight.cloud/user)
 
 ![&#x83B7;&#x53D6;iOS &#x8D26;&#x53F7;](.gitbook/assets/ping-mu-kuai-zhao-20190831-17.41.41.png)
 

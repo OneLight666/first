@@ -17,6 +17,8 @@ description: 在 Windows PC/平板 上使用 ShadowsocksR 客户端接入流量�
 
 ### 1.请使用浏览器打开 OneLight 用户中心 - 查看快速添加节点 <a id="1-qing-shi-yong-liu-lan-qi-da-kai-hai-tun-wan-yong-hu-zhong-xin-cha-kan-kuai-su-tian-jia-jie-dian"></a>
 
+官网：[https://onelight.cloud](https://onelight.cloud/user)
+
 ![](.gitbook/assets/ping-mu-kuai-zhao-20190921-17.07.21min%20%281%29.png)
 
 * 点击下载 Windows 客户端文件并安装。
